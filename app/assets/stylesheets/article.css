@@ -21,18 +21,31 @@
     color: #0080FF;
 }
 
-.article-card{
+.articlecard{
     padding:80px 20px 50px 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.acard{
-    height:500px;
-    width:800px;
+.acard-home{
+    height:400px;
+    width:700px;
     background-color: gray;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 25px;
+}
+
+.acardbottom{
+    height:140px;
+    width:660px;
+    margin-top:320px;
+    padding:20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 0px 0px 25px 25px;
+}
+
+.acardbottom h3{
+    color: #0080FF;
 }

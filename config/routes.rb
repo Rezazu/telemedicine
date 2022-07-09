@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'telemedicine/index'
 
   resources :doctors
   resources :accounts
@@ -45,6 +46,10 @@ Rails.application.routes.draw do
   get "/article",
     to: "articles#user_index",
     as: "user_index_article"
+  
+  get "/article/:id",
+    to: "articles#user_show",
+    as: "user_show_article"
 
   get "/medicine",
     to: "medicines#user_index",

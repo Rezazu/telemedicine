@@ -1,0 +1,2 @@
+module TelemedicineHelper
+end
